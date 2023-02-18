@@ -1,4 +1,7 @@
 database/container
 projects/*
+!projects/app
 .env
-/.vscode
+.vscode
+nginx/*
+!nginx/app.conf
