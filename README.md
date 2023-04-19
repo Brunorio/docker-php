@@ -12,7 +12,8 @@ Estrutura docker para rodar projetos em PHP com banco de dados Mysql e proxy rev
 - Copie a pasta do seu projeto para dentro de `projects/`.
 - Adicione um novo arquivo dentro de `nginx/nome_projeto.conf`
 - Cole esse trecho de código:
-`server {
+`nginx
+server {
     listen 80;
     listen [::]:80;
     server_name nome_projeto.localhost;
