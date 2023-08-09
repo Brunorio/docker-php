@@ -43,6 +43,7 @@ Estrutura docker para rodar projetos em PHP com banco de dados Mysql e proxy rev
 - jpeg
 - freetype
 - postgresql
+- bcmath
 - zip
 - intl
 - gb
