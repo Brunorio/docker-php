@@ -2,6 +2,11 @@ FROM php:7.3-fpm-alpine
 
 WORKDIR /projects
 
+ENV LANG C.UTF-8
+
+RUN echo "date.timezone = UTC" >> /usr/local/etc/php/php.ini
+RUN echo "default_charset = UTF-8" >> /usr/local/etc/php/php.ini
+
 RUN apk add --update icu-dev \
 && apk add libzip-dev postgresql-dev \
 libpng-dev libjpeg-turbo-dev freetype-dev \
