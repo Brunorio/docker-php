@@ -5,3 +5,4 @@ projects/*
 .vscode
 nginx/*
 !nginx/app.conf
+.devcontainer
